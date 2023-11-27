@@ -13,8 +13,6 @@ function selectNote(note) {
 
 function submitSelection() {
     
-    console.log("função ativada.")
-    
     document.querySelector('.rating-state').style.display = "none";
     document.querySelector('.thank-you').style.display = "block";
     
